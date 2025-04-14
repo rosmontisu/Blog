@@ -1,5 +1,5 @@
 ---
-title: FirstFile
+title: FristPost
 published: 2025-04-14
 description: ''
 image: ''
