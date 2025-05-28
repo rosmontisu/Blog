@@ -16,12 +16,12 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/rosmontis_animate.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/gifRos6s.gif", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
-			enable: false, // Display the credit text of the banner image
-			text: "", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
+			enable: true, // Display the credit text of the banner image
+			text: "Arknights EP - [Confront]", // Credit text to be displayed
+			url: "https://youtu.be/bu0x7pMiMIw?si=9pMTvhCj9op8TBGa", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -31,10 +31,10 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// Leave this array empty to use the default favicon
 		{
-		  src: '/favicon/hepari.png',    // Path of the favicon, relative to the /public directory
-		  // theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		  sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		}
+			src: "/favicon/hepari.png", // Path of the favicon, relative to the /public directory
+			// theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+			sizes: "32x32", // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		},
 	],
 };
 
@@ -57,17 +57,15 @@ export const profileConfig: ProfileConfig = {
 	bio: "해파리가 아니라 헤파리랍니다",
 	links: [
 		{
+			name: "Discord",
+			icon: "fa6-brands:discord",
+			url: "http://discordapp.com/users/806626814504075334",
+		},
+		{
 			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
+			icon: "fa6-brands:twitter",
 			url: "https://x.com/rosmontisu",
 		},
-		// {
-		// 	name: "Steam",
-		// 	icon: "fa6-brands:steam",
-		// 	url: "https://store.steampowered.com",
-		// },
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
@@ -77,7 +75,7 @@ export const profileConfig: ProfileConfig = {
 };
 
 export const licenseConfig: LicenseConfig = {
-	enable: true,
+	enable: false,
 	name: "CC BY-NC-SA 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 };
