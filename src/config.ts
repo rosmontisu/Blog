@@ -54,17 +54,17 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/hepari.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "hepari",
-	bio: "해파리가 아니라 헤파리랍니다",
+	bio: "과제용 빌드 테스트",
 	links: [
+		{
+			name: "G-Mail",
+			icon: "fa6-brands:google",
+			url: "mailto:rosmontisu@gmail.com",
+		},
 		{
 			name: "Discord",
 			icon: "fa6-brands:discord",
 			url: "http://discordapp.com/users/806626814504075334",
-		},
-		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter",
-			url: "https://x.com/rosmontisu",
 		},
 		{
 			name: "GitHub",
