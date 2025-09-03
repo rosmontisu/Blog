@@ -16,7 +16,9 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/gifRos6sLoop.gif", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		// gif 로딩 너무 느려~
+		// src: "assets/images/gifRos6sLoop.gif", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/rosmontis_confront.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: true, // Display the credit text of the banner image
@@ -54,7 +56,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/hepari.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "hepari",
-	bio: "과제용 빌드 테스트",
+	bio: "가장비싼돌은 일석이조",
 	links: [
 		{
 			name: "G-Mail",

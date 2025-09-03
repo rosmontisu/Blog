@@ -1,0 +1,75 @@
+---
+title: ++i vs i++ 어셈블리 비교 메모
+published: 2025-09-03
+description: ''
+image: ''
+tags: [optimization, assembly, c++]
+category: 'TIL'
+draft: false 
+lang: ''
+---
+
+### 전위 증가 (++i) vs 후위 증가 (i++)
+후위 증가는 임시 변수가 필요해 전위 증가보다 느리다고 하는데, 어셈블리 레벨에서 확인해보자.
+
+- 환경: MSVC (Visual Studio) x64 C++ 컴파일러 기준
+##### 전위증가
+```bash
+mov         eax,dword ptr [b]                   ; eax = b
+inc         eax                                 ; b++
+mov         dword ptr [b],eax                   ; b에 증가된 값 저장
+mov         eax,dword ptr [b]                   ; 증가된 b 불러오기
+mov         dword ptr [d],eax                   ; d = b
+```
+
+##### 후위증가
+```bash
+mov         eax,dword ptr [a]                   ; eax = a
+mov         dword ptr [rbp+134h],eax            ; ! 임시 저장: temp = a
+mov         eax,dword ptr [a]                   ; 다시 a 불러오기
+inc         eax                                 ; a++
+mov         dword ptr [a],eax                   ; a에 증가된 값 저장
+mov         eax,dword ptr [rbp+134h]            ; ! temp 불러오기
+mov         dword ptr [c],eax                   ; c = temp (즉, 증가 전의 a)
+```
+
+
+
+- 후위연산은 임시로 base pointer + 0x134 (+308byte) 떨어진 곳에 a를 저장(`mov`)
+- 다시 불러오는(`mov`) 과정이 추가
+- 결론적으로 `mov`연산이 2회 추가
+
+---
+
+
+코드 전문
+```java
+	int a = 1;
+00007FF650F8DF8C  mov         dword ptr [a],1  
+	int b = 1;
+00007FF650F8DF93  mov         dword ptr [b],1  
+
+	a++;
+00007FF650F8DF9A  mov         eax,dword ptr [a]  
+00007FF650F8DF9D  inc         eax  
+00007FF650F8DF9F  mov         dword ptr [a],eax  
+	++b;
+00007FF650F8DFA2  mov         eax,dword ptr [b]  
+00007FF650F8DFA5  inc         eax  
+00007FF650F8DFA7  mov         dword ptr [b],eax  
+
+	int c = a++;   // 후위 증가
+00007FF650F8DFAA  mov         eax,dword ptr [a]  
+00007FF650F8DFAD  mov         dword ptr [rbp+134h],eax  
+00007FF650F8DFB3  mov         eax,dword ptr [a]  
+00007FF650F8DFB6  inc         eax  
+00007FF650F8DFB8  mov         dword ptr [a],eax  
+00007FF650F8DFBB  mov         eax,dword ptr [rbp+134h]  
+00007FF650F8DFC1  mov         dword ptr [c],eax  
+	int d = ++b;   // 전위 증가
+00007FF650F8DFC4  mov         eax,dword ptr [b]  
+00007FF650F8DFC7  inc         eax  
+00007FF650F8DFC9  mov         dword ptr [b],eax  
+00007FF650F8DFCC  mov         eax,dword ptr [b]  
+00007FF650F8DFCF  mov         dword ptr [d],eax  
+```
