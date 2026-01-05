@@ -48,23 +48,27 @@ git push origin main
 
 ### 대안: Pull Request를 통한 안전한 동기화 (추천)
 
-```bash
-# 1. main에서 새 브랜치 생성
-git checkout main
-git checkout -b sync-upstream
+1. main에서 새 브랜치 생성:
+   ```bash
+   git checkout main
+   git checkout -b sync-upstream
+   ```
 
-# 2. upstream과 병합 (필요시 --allow-unrelated-histories 사용)
-git merge upstream/main --allow-unrelated-histories
+2. upstream과 병합 (필요시 --allow-unrelated-histories 사용):
+   ```bash
+   git merge upstream/main --allow-unrelated-histories
+   ```
 
-# 3. 충돌 해결
-# - 각 충돌을 신중하게 검토
-# - 커스텀 설정은 유지 (src/config.ts 등)
-# - upstream의 새 기능과 버그 수정은 받아들임
-# - 로컬에서 테스트
+3. 충돌 해결:
+   - 각 충돌을 신중하게 검토
+   - 커스텀 설정은 유지 (src/config.ts 등)
+   - upstream의 새 기능과 버그 수정은 받아들임
+   - 로컬에서 테스트
 
-# 4. 브랜치 푸시 및 GitHub에서 PR 생성
-git push origin sync-upstream
-```
+4. 브랜치 푸시 및 GitHub에서 PR 생성:
+   ```bash
+   git push origin sync-upstream
+   ```
 
 ## 이 저장소를 위한 권장 동기화 전략
 
