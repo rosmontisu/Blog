@@ -1,7 +1,7 @@
 ---
 title: '번외 1. 언리얼 클래스 문법과 필수 매크로'
 published: 2026-02-02
-description: '언리얼 C++에서 클래스 생성시에 보이는 UCLASS()와 UNREALSTRING_API, GENERATED_BODY()'
+description: '언리얼 C++에서 클래스 생성시에 보이는 UCLASS()와 UNREALSTRING_API, GENERATED_BODY()는 무엇인지 알아보자'
 image: ''
 tags: [Unreal Engine, C++]
 category: 'Unreal Engine'
@@ -21,14 +21,14 @@ public:
     virtual void Init() override;
 };
 ```
-위와 같은 언리얼 C++을 처음 접하면 기존 C++과 다른 클래스 문법이 몇가지 보인다. 
+위 코드는 언리얼 클래스 코드이다. 기존에 우리가 사용하던 C++에서 못보던 문법과 매크로가 존재하는데, 각각의 용도가 어떤것인지 정리해보려고 한다.
 - UCLASS()
 - UNREALSTRING_API
 - GENERATED_BODY()
 --- 
 
 # 1. 기존 C++ 클래스 문법
-C++에서 클래스는 아래와 같이 선언한다.
+C++에서 클래스는 아래와 같이 선언합니다.
 ```cpp
 class 클래스명 : 접근제한자 부모클래스명
 {
