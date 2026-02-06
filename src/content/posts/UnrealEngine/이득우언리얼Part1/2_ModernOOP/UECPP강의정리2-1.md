@@ -1,9 +1,9 @@
 ---
 title: '[이득우의 UE5 C++] 7. Interface'
 published: 2026-02-06
-description: '언리얼 C++ Interface의 개념과 사용법을 알아보자'
+description: '다형성(Polymorphism) : 객체 간 의존성을 분리하고, 유연한 동작을 보장하는 Interface 설계 기법'
 image: '' 
-tags: [Unreal Engine, C++]
+tags: [Unreal Engine, C++, OOP]
 category: 'Unreal Engine'
 draft: false 
 lang: 'ko'
