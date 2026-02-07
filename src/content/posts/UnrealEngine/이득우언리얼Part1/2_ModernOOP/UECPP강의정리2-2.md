@@ -1,7 +1,7 @@
 ---
 title: '[이득우의 UE5 C++] 8. Composition'
 published: 2026-02-07
-description: '합성(Composition): CreateDefaultSubobject로 SubObject를 생성, UE5의 TObjectPtr활용, Enum+리플렉션을 통해 메타데이터를 다루는 방법을 알아보자'
+description: 'CreateDefaultSubobject로 SubObject를 생성, UE5의 TObjectPtr활용, Enum+리플렉션으로 메타데이터를 다루는 방법을 알아보자'
 image: '' 
 tags: [Unreal Engine, C++, OOP]
 category: 'Unreal Engine'
