@@ -1,7 +1,7 @@
 ---
 title: '[이득우의 UE5 C++] 6. UObject Reflection 2'
 published: 2026-02-05
-description: '언리얼 오브젝트의 Reflection System으로 프로퍼티와 함수를 접근하고 수정해보자.'
+description: '언리얼 오브젝트의 리플렉션 시스템으로 프로퍼티와 함수를 접근하고 수정해보자.'
 image: '' 
 tags: [Unreal Engine, C++]
 category: 'Unreal Engine'
@@ -14,7 +14,7 @@ lang: 'ko'
 
 
 # 강의 목표
-- Reflection System을 이용해 언리얼 오브젝트를 다루는 방법
+- 리플렉션 시스템을 이용해 언리얼 오브젝트를 다루는 방법
 	- 속성/함수 검색 및 호출/변경
 	- 접근 지시자 우회
 
