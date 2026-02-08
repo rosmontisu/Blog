@@ -1,7 +1,7 @@
 ---
 title: '[이득우의 UE5 C++] 8. Composition'
 published: 2026-02-07
-description: 'CreateDefaultSubobject로 SubObject를 생성, UE5의 TObjectPtr활용, Enum+리플렉션으로 메타데이터를 다루는 방법을 알아보자'
+description: '포함 관계에서 SubObject생성, 안전한 참조관리(TObjectPtr), Enum+리플렉션을 통한 메타데이터 활용을 알아보자'
 image: '' 
 tags: [Unreal Engine, C++, OOP]
 category: 'Unreal Engine'
@@ -12,7 +12,8 @@ lang: 'ko'
 > "이득우의 언리얼 프로그래밍 Part1 - 언리얼 C++의 이해" 학습 내용을 정리한 강의 노트입니다.   
 > 옵시디언에 정리한 마크다운 문서라 블로그 마크다운 양식에 일부 맞지 않을 수 있습니다.   
 >
-> # 강의 목표
+
+# 강의 목표
 
 - 언리얼 C++의 컴포지션 기법을 사용해 오브젝트의 포함 관계를 설계한다.
 - 언리얼 C++이 제공하는 열거형(Enum) 타입의 선언과 메타데이터 활용 방법을 학습한다.
