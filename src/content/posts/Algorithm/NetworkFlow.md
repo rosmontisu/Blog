@@ -1,9 +1,9 @@
 ---
-title: '[알고리즘] 네트워크 유량의 원리와 에드몬드-카프 구현'
+title: '[알고리즘] 네트워크 유량 (Network Flow)'
 published: 2026-02-04
-description: 'Network Flow & Max-Flow Min-Cut 정리 및 Edmonds-Karp 알고리즘을 사용해 최대 유량 구하기'
+description: 'Network Flow & Max-Flow Min-Cut(MFMC) 정리 및 BFS기반의 Edmonds-Karp 알고리즘을 사용해 최대 유량 구하기'
 image: ''
-tags: [Algorithm, Graph, NetworkFlow]
+tags: [Algorithm, Graph, Network Flow]
 category: 'Algorithm'
 draft: false 
 lang: ''
