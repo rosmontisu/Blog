@@ -1,7 +1,7 @@
 ---
 title: '[이득우의 UE5 C++] 8. Composition'
 published: 2026-02-07
-description: '포함 관계에서 SubObject생성, 안전한 참조관리(TObjectPtr), Enum+리플렉션을 통한 메타데이터 활용을 알아보자'
+description: '[OOP 2/3] - 포함 관계에서 SubObject생성, 안전한 참조관리(TObjectPtr), Enum+리플렉션을 통한 메타데이터 활용을 알아보자'
 image: '' 
 tags: [Unreal Engine, C++, OOP]
 category: 'Unreal Engine'

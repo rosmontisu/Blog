@@ -1,7 +1,7 @@
 ---
 title: '[이득우의 UE5 C++] 9. Delegate & Pub/Sub'
 published: 2026-02-08
-description: '발행-구독(Pub/Sub) 패턴의 이해, 델리게이트 매크로(DECLARE) 활용, 그리고 브로드캐스팅을 통한 이벤트 기반 설계를 알아보자.'
+description: '[OOP 3/3] - 발행-구독(Pub/Sub) 패턴의 이해, 델리게이트 매크로(DECLARE) 활용, 그리고 브로드캐스팅을 통한 이벤트 기반 설계를 알아보자.'
 image: '' 
 tags: [Unreal Engine, C++, OOP]
 category: 'Unreal Engine'
