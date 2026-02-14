@@ -40,6 +40,7 @@ lang: 'ko'
 	- 로딩/저장 양쪽 모두 `Ar << Data`로 통일하여 코드를 재사용함. 
 	- (아카이브 내부 상태인 `IsLoading()`, `IsSaving()`으로 구분).
 
+---
 
 # 실습 1: 일반 C++ 구조체(Struct) 직렬화
 > 가장 기초적인 단계로, `UObject`가 아닌 일반 C++ 구조체를 바이너리 파일로 저장하고 읽어오는 방법
@@ -115,6 +116,8 @@ LogTemp: 변경할 파일 전체 경로 : F:/UE5/UE5Part1/UnrealSerialization/Sa
 `F:\UE5\UE5Part1\UnrealSerialization`
 ![alt text](image.png)
 
+---
+
 # 실습 2: 언리얼 오브젝트(UObject) 직렬화
 > `UObject`는 자체적으로 `Serialize` 함수를 가진다. 이를 활용해 객체를 **메모리(Buffer)** 로 먼저 직렬화한 뒤, 그 버퍼를 **파일**로 저장하는 2단계 방식을 주로 사용한다. (네트워크 전송 등을 고려한 패턴)
 
@@ -160,6 +163,7 @@ UStudent* StudentDest = NewObject<UStudent>();
 StudentDest->Serialize(MemoryReaderAr); // 버퍼 내용을 StudentDest에 주입
 ```
 
+---
 
 # 실습 3: JSON 직렬화
 > 데이터를 텍스트 기반 JSON 포맷으로 변환. 웹 서버 통신이나 데이터 디버깅 용으로 주로 사용
@@ -221,6 +225,8 @@ if (FFileHelper::LoadFileToString(JsonInString, *JsonPath))
     }
 }
 ```
+
+---
 
 # 언리얼 스마트 포인터 라이브러리
 > C++ 표준(`std::shared_ptr` 등) 대신 언리얼 엔진 자체적으로 제공하는 스마트 포인터를 사용해야 한다.
