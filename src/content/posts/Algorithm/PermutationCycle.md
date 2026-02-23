@@ -1,5 +1,5 @@
 ---
-title: '[알고리즘] 순열 사이클 분할 (Permutation Cycle Decomposition)'
+title: '[Algorithm] Permutation Cycle Decomposition'
 published: 2026-02-11
 description: '순열 사이클 분할 개념, DFS를 이용해 배열 정렬 최소 교환 횟수를 구하는 방법을 알아보자.'
 image: ''

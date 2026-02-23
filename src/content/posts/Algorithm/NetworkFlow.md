@@ -1,7 +1,7 @@
 ---
-title: '[알고리즘] 네트워크 유량 (Network Flow)'
+title: '[Algorithm] Network Flow'
 published: 2026-02-04
-description: 'Network Flow & Max-Flow Min-Cut(MFMC) 정리 및 BFS기반의 Edmonds-Karp 알고리즘을 사용해 최대 유량 구하기'
+description: '네트워크 유량: Network Flow & Max-Flow Min-Cut(MFMC) 정리 및 BFS기반의 Edmonds-Karp 알고리즘을 사용해 최대 유량 구하기'
 image: ''
 tags: [Algorithm, Graph, Network Flow]
 category: 'Algorithm'
