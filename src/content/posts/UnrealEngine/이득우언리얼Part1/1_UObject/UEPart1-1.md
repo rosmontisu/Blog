@@ -1,5 +1,5 @@
 ---
-title: '[이득우의 UE5 C++] 1. 언리얼 C++ 환경 설정'
+title: '[UE5 / Part1] 1. UE C++ 환경 설정'
 published: 2026-01-31
 description: '언리얼 C++ 개발을 위한 언리얼 및 IDE 환경 설정 후 Hello Unreal 로그를 출력해보자'
 image: '' 

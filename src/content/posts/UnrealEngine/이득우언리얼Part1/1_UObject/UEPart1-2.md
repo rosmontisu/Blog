@@ -1,5 +1,5 @@
 ---
-title: '[이득우의 UE5 C++] 2. 언리얼 C++ 표준 Docs'
+title: '[UE5 / Part1] 2. UE C++ 표준 Docs'
 published: 2026-02-01
 description: '언리얼 C++ 코딩 표준을 공식 문서를 읽으면서 대략적으로 파악해보자'
 image: '' 

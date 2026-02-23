@@ -1,5 +1,5 @@
 ---
-title: '[이득우의 UE5 C++] 4. 언리얼 오브젝트 DOCS'
+title: '[UE5 / Part1] 4. UObject DOCS'
 published: 2026-02-03
 description: '언리얼 오브젝트 DOCS를 읽어보며 필요성과 특징 및 UHT 등을 간단하게 살펴보자'
 image: '' 

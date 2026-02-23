@@ -1,5 +1,5 @@
 ---
-title: '[이득우의 UE5 C++] 3. 기본타입과 문자열'
+title: '[UE5 / Part1] 3. 기본타입과 문자열'
 published: 2026-02-02
 description: '언리얼 C++의 Int, TChar, FString, FName과 같은 타입과 문자열 처리 방식을 알아보자'
 image: '' 
