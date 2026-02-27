@@ -1,5 +1,5 @@
 ---
-title: '[UE5 / Part1] 15. Module & Plugin'
+title: '[UE5/Part1] 15. Module & Plugin'
 published: 2026-02-14
 description: '언리얼 에디터 동작 방식, 모듈 시스템 기반 소스코드 구성 및 플러그인 구조 학습'
 tags: [Unreal Engine, C++, Build System, Module, Plugin]

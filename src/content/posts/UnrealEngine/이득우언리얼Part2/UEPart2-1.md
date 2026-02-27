@@ -1,5 +1,5 @@
 ---
-title: '[UE5 / Part2] 1. 프레임워크 및 C++ 프로젝트 설정'
+title: '[UE5/Part2] 1. 프레임워크 및 C++ 프로젝트 설정'
 published: 2026-02-23
 description: '게임 프레임워크 구조 및 클래스 설계, 기본적인 프로젝트 설정'
 image: '' 

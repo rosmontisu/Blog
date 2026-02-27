@@ -1,5 +1,5 @@
 ---
-title: '[UE5 / Part1] 14. Package & Asset'
+title: '[UE5/Part1] 14. Package & Asset'
 published: 2026-02-13
 description: 'UPackage를 이용한 에셋 저장과 LoadObject, FStreamableManager를 활용한 다양한 로딩 방법'
 image: '' 

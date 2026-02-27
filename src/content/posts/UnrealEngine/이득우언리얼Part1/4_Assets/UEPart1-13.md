@@ -1,5 +1,5 @@
 ---
-title: '[UE5 / Part1] 13. Serialization'
+title: '[UE5/Part1] 13. Serialization'
 published: 2026-02-12
 description: '언리얼에서 C++ Struct, UObject, Json을 직렬화/역직렬화하여 데이터를 읽고 쓰는 방법을 알아보자.'
 image: '' 
