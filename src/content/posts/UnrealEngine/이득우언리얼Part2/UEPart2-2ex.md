@@ -1,5 +1,5 @@
 ---
-title: 'Ex2. 다수의 StaticMesh 컴포넌트 배치시의 부하 원인 (Draw Call)'
+title: '다수의 StaticMesh 컴포넌트 배치시의 부하 원인 (Draw Call)'
 published: 2026-02-27
 description: '동일한 UStaticMesh 컴포넌트를 월드에 다수 배치할 때 발생하는 시스템 부하의 원인을 메모리와 연산 관점에서 알아보고, 순수하게 폴리곤이 높은 USkeletalMesh에 경우도 알아보자.'
 image: ''
