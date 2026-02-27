@@ -1,5 +1,5 @@
 ---
-title: '[UE5 / Part1] 6. UObject Reflection 2'
+title: '[UE5/Part1] 6. UObject Reflection 2'
 published: 2026-02-05
 description: '언리얼 오브젝트의 리플렉션 시스템으로 프로퍼티와 함수를 접근하고 수정해보자.'
 image: '' 

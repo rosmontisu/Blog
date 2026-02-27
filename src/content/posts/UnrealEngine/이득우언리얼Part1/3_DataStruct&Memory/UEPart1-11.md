@@ -1,5 +1,5 @@
 ---
-title: '[UE5 / Part1] 11. UStruct & Map'
+title: '[UE5/Part1] 11. UStruct & Map'
 published: 2026-02-10
 description: '언리얼 구조체 UStruct의 사용법, TMap/TMultiMap의 특징 및 '
 image: '' 

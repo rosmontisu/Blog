@@ -1,5 +1,5 @@
 ---
-title: '[UE5 / Part1] 12. UE GC & FGCObject'
+title: '[UE5/Part1] 12. UE GC & FGCObject'
 published: 2026-02-11
 description: '언리얼 GC의 동작 원리와 주의점 및 C++ 클래스를 보호하는 FGCObject를 알아보자'
 image: '' 

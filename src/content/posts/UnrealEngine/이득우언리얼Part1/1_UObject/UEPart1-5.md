@@ -1,5 +1,5 @@
 ---
-title: '[UE5 / Part1] 5. UObject Reflection 1'
+title: '[UE5/Part1] 5. UObject Reflection 1'
 published: 2026-02-04
 description: 'UObject<->UClass객체 매칭, 메타데이터, CDO, Assertion함수의 개념을 알아보자'
 image: '' 

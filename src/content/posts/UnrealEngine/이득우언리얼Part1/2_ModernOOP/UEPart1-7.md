@@ -1,5 +1,5 @@
 ---
-title: '[UE5 / Part1] 7. Interface'
+title: '[UE5/Part1] 7. Interface'
 published: 2026-02-06
 description: '[OOP 1/3] - 객체 간 의존성을 줄여주는 느슨한 결합 인터페이스를 언리얼에서 사용해보자'
 image: '' 
