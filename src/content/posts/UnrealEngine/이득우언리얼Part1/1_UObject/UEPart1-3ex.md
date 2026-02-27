@@ -1,5 +1,5 @@
 ---
-title: '[UE5/Part1] Ex1. 언리얼 클래스 문법과 필수 매크로'
+title: 'Ex1. 언리얼 클래스 문법과 필수 매크로'
 published: 2026-02-02
 description: '언리얼 C++에서 클래스 생성시에 보이는 UCLASS()와 XXXXX_API, GENERATED_BODY()는 무엇인지 기존 C++과 비교하면서 알아보자'
 image: ''
