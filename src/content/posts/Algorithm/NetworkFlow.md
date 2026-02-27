@@ -38,7 +38,7 @@ lang: ''
 
 ---
 
-# 포드-폴커슨 방법 (Ford-Fulkerson method)
+# Ford-Fulkerson method
 ## 동작 원리
 - u -> v 로 보낼 수 있는 잔여 용량을 `r(u, v)`라고 할때
 	- `r(u, v)` == `c(u, v) - f(u, v)`
@@ -71,7 +71,7 @@ lang: ''
 - 즉, `Max-Flow` == `Min-Cut` 정리가 성립한다.
 
 ---
-# 애드몬드-카프 알고리즘 (Edmonds-Karp)
+# Edmonds-Karp Algorithm
 ## 이론
 - BFS로 시작점에서 가장 간선 개수가 적은 경로(최단 경로)부터 찾는다.
 	- 이러면 유량을 흘려보내는 횟수가 O(VE)로 제한된다.
