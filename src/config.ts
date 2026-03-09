@@ -61,7 +61,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/rosmontisu",
+			url: "https://github.com/heparidayo",
 		},
 		{
 			name: "Discord",
@@ -71,12 +71,12 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Twitter",
 			icon: "fa6-brands:twitter",
-			url: "https://x.com/rosmontisu",
+			url: "https://x.com/heparidayo",
 		},
 		{
 			name: "G-Mail",
 			icon: "fa6-brands:google",
-			url: "mailto:rosmontisu@gmail.com",
+			url: "mailto:heparidayo@gmail.com",
 		},
 	],
 };
