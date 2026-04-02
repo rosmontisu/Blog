@@ -1,5 +1,5 @@
 ---
-title: '[UE5/Part1] 10. TArray & TSet'
+title: '[UE5/Data] 10. TArray & TSet'
 published: 2026-02-09
 description: '언리얼의 TArray와 TSet은 C++ STL과 어떻게 다른지 알아보자'
 image: '' 
